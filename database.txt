@@ -1,0 +1,12 @@
+Nome tabella: Auto usate
+
+id = intero - INT - PRIMARY KEY
+marca = stringa - VARCHAR(100) NOTNULL
+modello = stringa - VARCHAR(200) NOTNULL
+km = intero - INT NOTNULL
+anno_della_macchina = data - DATE(YEAR) NULL
+posti_a_sedere = intero - TINYINT NOTNULL
+portiere = intero - TINYINT NOTNULL
+cambio = stringa - VARCHAR(20) NOTNULL
+data_inserimento = data - DATE NOTNULL
+prezzo = float - FLOAT(9,2) NOTNULL - DEFAULT 0.00
